@@ -27,7 +27,7 @@ const features = [
 
 const Features = () => (
   <section className='flex h-screen w-full flex-1 justify-center px-3 py-24 md:px-20 lg:px-52'>
-    <div className='flex flex-col justify-evenly'>
+    <div className='flex flex-col justify-evenly gap-8'>
       <h2 className='text-center text-4xl font-bold text-gray'>Features</h2>
       <div className='flex gap-10'>
         {features.map((feature, index) => (
