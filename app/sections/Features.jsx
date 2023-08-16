@@ -1,8 +1,8 @@
 import React from 'react';
-import Multilang from '@/app/multilang.svg';
-import VoiceInput from '@/app/voice_input.svg';
-import ReadAloud from '@/app/read_aloud.svg';
-import Feature from '../components/Feature';
+import Multilang from '@/app/assets/multilang.svg';
+import VoiceInput from '@/app/assets/voice_input.svg';
+import ReadAloud from '@/app/assets/read_aloud.svg';
+import Feature from '@/app/components/Feature';
 
 const features = [
   {
@@ -28,7 +28,7 @@ const features = [
 const Features = () => (
   <section className='flex h-screen w-full flex-1 justify-center px-3 py-24 md:px-20 lg:px-52'>
     <div className='flex flex-col justify-evenly'>
-      <h2 className='text-gray text-center text-4xl font-bold'>Features</h2>
+      <h2 className='text-center text-4xl font-bold text-gray'>Features</h2>
       <div className='flex gap-10'>
         {features.map((feature, index) => (
           <Feature
